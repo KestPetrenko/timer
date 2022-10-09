@@ -10,7 +10,6 @@ let reset = document.querySelector(".reset").addEventListener("click", funcReset
 function funcStart() {
     t = setInterval(nextColor, 1000);
     t = setInterval(startTime, 1000);
-
     document.querySelector(".start").disabled = true;
 }
 
@@ -27,7 +26,6 @@ function funcReset() {
     document.querySelector(".second").innerHTML = sec;
     document.querySelector(".minuts").innerHTML = min;
     document.querySelector(".hour").innerHTML = hr;
-
 }
 
 let second = document.querySelector(".second");
