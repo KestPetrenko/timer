@@ -10,7 +10,6 @@ let reset = document.querySelector(".reset").addEventListener("click", funcReset
 function funcStart() {
     t = setInterval(nextColor, 1000);
     t = setInterval(startTime, 1000);
-
     document.querySelector(".start").disabled = true;
 }
 
