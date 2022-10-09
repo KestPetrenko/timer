@@ -27,7 +27,6 @@ function funcReset() {
     document.querySelector(".second").innerHTML = sec;
     document.querySelector(".minuts").innerHTML = min;
     document.querySelector(".hour").innerHTML = hr;
-
 }
 
 let second = document.querySelector(".second");
