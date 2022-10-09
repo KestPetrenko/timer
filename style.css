@@ -139,7 +139,7 @@ footer {
 .reset {
     background-image: linear-gradient(to right, red 0%, #061700 51%, red 100%);
     margin: 10px;
-    padding: 15px 45px;
+    padding: 15px 46px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
